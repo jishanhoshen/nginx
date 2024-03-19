@@ -6,26 +6,20 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class PackageCard extends Component
+class Card2 extends Component
 {
-    public $includes;
-    public $excludes;
     public $title;
     public $description;
-    public $price;
-    public $side;
+    public $icon;
 
     /**
      * Create a new component instance.
      */
-    public function __construct($title, $description, $price, $includes = [], $excludes = [], $side = 'right')
+    public function __construct($title, $description, $icon = '')
     {
-        $this->includes = $includes;
-        $this->excludes = $excludes;
         $this->title = $title;
         $this->description = $description;
-        $this->price = $price;
-        $this->side = $side;
+        $this->icon = $icon;
     }
 
     /**
@@ -33,6 +27,6 @@ class PackageCard extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.package-card');
+        return view('components.card2');
     }
 }

@@ -54,7 +54,7 @@
     {{-- service section --}}
     <div class="lg:px-8 mt-20">
         <div class="text-center border-b border-gray-300 pb-6">
-            <h2 class="text-2xl font-semibold">Ongsho Cloud Services</h2>
+            <h2 class="text-4xl font-semibold">Ongsho Cloud Services</h2>
         </div>
         <div class="lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
@@ -82,8 +82,8 @@
     {{-- service section --}}
     <div class="lg:px-8 mt-20">
         <div class="text-center border-b border-gray-300 pb-6">
-            <p class="text-sm text-gray-500">Find your best hosting at Ongsho Cloud</p>
-            <h2 class="text-3xl font-semibold">Hosting Features</h2>
+            <p class="text-sm text-gray-500">Choose Your Best Web Hosting Pricing Package</p>
+            <h2 class="text-4xl font-semibold">Web Hosting Pricing Plan</h2>
         </div>
         <div class="lg:px-8">
             {{-- <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 my-6">
@@ -268,26 +268,60 @@
                 $excludes = ['Installation Charge'];
             @endphp
             <x-package-card title="Shared Hosting"
-                description="Ongsho Cloud is providing high performance shared web hosting for your website. Your system will
-            host on a powerful, reliable and reasonable web hosting platform. Also get total control your
-            website & email accounts."
+                description="Ongsho Cloud is providing high performance shared web hosting for your website. Your system will host on a powerful, reliable and reasonable web hosting platform. Also get total control your website & email accounts."
                 price="3.49" :includes=$includes :excludes=$excludes />
+
+
             <x-package-card title="Reseller Hosting"
-                description="Building your own web hosting/server business is now simple with Ongsho Cloud reseller hosting. Our flexible Lnux Reseller Hosting plans allow you to create your hosting business more powerful. "
-                price="3.49" :includes=$includes :excludes=$excludes />
+                description="Building your own web hosting/server business is now simple with Ongsho Cloud reseller hosting. Our flexible Lnux Reseller Hosting plans allow you to create your hosting business more powerful."
+                price="19.95" :includes=$includes :excludes=$excludes side="left" />
+
+
             <x-package-card title="Virtual Private Server"
-                description="For cheap, first and reliable VPS hosting, choose Ongsho Cloud with truly flexible cloud servers, allowing you to completely customize your hosting environment. Cloud infrastructure at the best price ."
-                price="3.49" :includes=$includes :excludes=$excludes />
-            <x-package-card title="Shared Hosting"
-                description="Ongsho Cloud is providing high performance shared web hosting for your website. Your system will
-            host on a powerful, reliable and reasonable web hosting platform. Also get total control your
-            website & email accounts."
-                price="3.49" :includes=$includes :excludes=$excludes />
-            <x-package-card title="Shared Hosting"
-                description="Ongsho Cloud is providing high performance shared web hosting for your website. Your system will
-            host on a powerful, reliable and reasonable web hosting platform. Also get total control your
-            website & email accounts."
-                price="3.49" :includes=$includes :excludes=$excludes />
+                description="For cheap, first and reliable VPS hosting, choose Ongsho Cloud with truly flexible cloud servers, allowing you to completely customize your hosting environment. Cloud infrastructure at the best price."
+                price="49.95" :includes=$includes :excludes=$excludes />
+
+
+            <x-package-card title="Dedicated Server"
+                description="Enjoy high performance, maximum security, and flexibility with managed dedicated hosting from Ongsho Cloud. Deploy your suitable Cloud Server with any flavor of Linux OS & choose what services your project needs."
+                price="85.95" :includes=$includes :excludes=$excludes side="left" />
+
+            <x-package-card title="WordPress Hosting"
+                description="Best WordPress Hosting is here, we organize a hosting plan to use WordPress with comfort. We offers affordable price, Speed optimization and 24/7 live chat support, and a robust platform to host your WordPress website."
+                price="5.95" :includes=$includes :excludes=$excludes />
+
+            <x-package-card title="Storage Server"
+                description="You can store your secure data such as images, videos, files, backups and more! Our storage plans are perfect for archiving data publicly or privately. You can access from anywhere your storage like your personal computer."
+                price="29.95" :includes=$includes :excludes=$excludes side="left" />
+
+        </div>
+    </div>
+
+    {{-- service section --}}
+    <div class="lg:px-8 mt-20">
+        <div class="text-center border-b border-gray-300 pb-6">
+            <p class="text-sm text-gray-500">Find your best hosting at Ongsho Cloud</p>
+            <h2 class="text-4xl font-semibold">Hosting Features</h2>
+        </div>
+        <div class="lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+            <x-card2 icon="fa fa-wrench" title="Domain DNS Management"
+                description="Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla." />
+            <x-card2 icon="fa fa-dashboard" title="Automated Control Panel"
+                description="Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla." />
+            <x-card2 icon="fa fa-envelope" title="24/7 Phone & Email Support"
+                description="Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla." />
+            <x-card2 icon="fa fa-lock" title="Domain DNS Management"
+                description="Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla." />
+            <x-card2 icon="fa fa-tags" title="Domain DNS Management"
+                description="Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla." />
+            <x-card2 icon="fa fa-search" title="Domain DNS Management"
+                description="Duis posuere blandit orci sed tincidunt. Curabitur porttitor nisi ac nunc ornare, in fringilla." />
+        </div>
+    </div>
+    <div class="lg:px-8 mt-20">
+        <div class="text-center border-b border-gray-300 pb-6">
+            <p class="text-sm text-gray-500">Reasones of Choose Us</p>
+            <h2 class="text-4xl font-semibold">Why Choose Us</h2>
         </div>
     </div>
 @endsection

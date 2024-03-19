@@ -5,6 +5,7 @@ export default {
         "./resources/**/*.js",
         "./resources/**/*.vue",
     ],
+    darkMode: ['selector', '[data-mode="dark"]'],
     theme: {
         extend: {},
     },
