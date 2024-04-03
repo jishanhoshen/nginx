@@ -23,7 +23,8 @@
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-12">
                 @foreach ($menu as $item)
-                    <a href="#" class="text-sm font-semibold leading-6 text-gray-900">{{ $item }}</a>
+                    <a href="{{ $item === 'Home' ? '/' : $item }}"
+                        class="text-sm font-semibold leading-6 text-gray-900">{{ $item }}</a>
                 @endforeach
                 <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span
                         aria-hidden="true">&rarr;</span></a>
@@ -53,7 +54,7 @@
                     <div class="-my-6 divide-y divide-gray-500/10">
                         <div class="space-y-2 py-6">
                             @foreach ($menu as $item)
-                                <a href="#"
+                                <a href="{{ $item === 'Home' ? '/' : $item }}"
                                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ $item }}</a>
                             @endforeach
                         </div>

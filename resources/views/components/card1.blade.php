@@ -1,4 +1,4 @@
-<div class="flex flex-row border border-white hover:border-gray-300 px-4 py-8 hover:shadow">
+<div class="flex flex-row px-4 py-8">
     <div>
         <div class="w-14 h-14 border-2 border-gray-500 rounded-full mr-4">
             <div
